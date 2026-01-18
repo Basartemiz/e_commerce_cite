@@ -57,6 +57,3 @@ databases:
   - name: db
     engine: PG
     production: false
-    cluster_name: shopease-db
-    db_name: shopease
-    db_user: shopease_user
