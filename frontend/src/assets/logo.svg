@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <defs>
+    <linearGradient id="bagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA"/>
+      <stop offset="100%" style="stop-color:#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shopping Bag Icon -->
+  <g transform="translate(5, 5)">
+    <!-- Bag body -->
+    <path d="M5 15 L5 38 Q5 42 9 42 L31 42 Q35 42 35 38 L35 15 Z"
+          fill="url(#bagGradient)" />
+
+    <!-- Bag handle -->
+    <path d="M12 15 L12 10 Q12 4 20 4 Q28 4 28 10 L28 15"
+          fill="none"
+          stroke="url(#bagGradient)"
+          stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- Checkmark/ease indicator -->
+    <path d="M13 26 L18 31 L27 22"
+          fill="none"
+          stroke="white"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Text: Shop -->
+  <text x="50" y="35"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="28"
+        font-weight="700"
+        fill="#FFFFFF">Shop</text>
+
+  <!-- Text: Ease -->
+  <text x="110" y="35"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="28"
+        font-weight="700"
+        fill="url(#bagGradient)">Ease</text>
+</svg>

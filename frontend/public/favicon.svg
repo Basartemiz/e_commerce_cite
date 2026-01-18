@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="bagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA"/>
+      <stop offset="100%" style="stop-color:#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shopping Bag Icon -->
+  <g transform="translate(4, 2)">
+    <!-- Bag body -->
+    <path d="M5 15 L5 40 Q5 44 9 44 L31 44 Q35 44 35 40 L35 15 Z"
+          fill="url(#bagGradient)" />
+
+    <!-- Bag handle -->
+    <path d="M12 15 L12 10 Q12 4 20 4 Q28 4 28 10 L28 15"
+          fill="none"
+          stroke="url(#bagGradient)"
+          stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- Checkmark -->
+    <path d="M13 27 L18 32 L27 23"
+          fill="none"
+          stroke="white"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+  </g>
+</svg>

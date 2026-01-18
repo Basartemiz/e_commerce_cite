@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #f5f6fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
