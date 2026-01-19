@@ -1,8 +1,16 @@
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
+import { useAuth } from '../../context/AuthContext';
 import './AdminLayout.css';
 
 function AdminLayout() {
   const location = useLocation();
+  const navigate = useNavigate();
+  const { logout } = useAuth();
+
+  const handleLogout = () => {
+    logout();
+    navigate('/admin/login');
+  };
 
   return (
     <div className="admin-layout">
@@ -26,6 +34,9 @@ function AdminLayout() {
           <Link to="/" className="admin-nav-link back-link">
             Back to Store
           </Link>
+          <button onClick={handleLogout} className="admin-nav-link logout-button">
+            Logout
+          </button>
         </nav>
       </aside>
       <main className="admin-main">
