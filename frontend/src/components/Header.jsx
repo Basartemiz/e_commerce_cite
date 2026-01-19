@@ -15,6 +15,7 @@ function Header({ cartCount, onCartClick }) {
           <a href="#" className="nav-link">{t('home')}</a>
           <a href="#" className="nav-link">{t('products')}</a>
           <a href="#" className="nav-link">{t('about')}</a>
+          <a href="/admin" className="nav-link">{t('admin')}</a>
         </nav>
         <div className="header-actions">
           <select

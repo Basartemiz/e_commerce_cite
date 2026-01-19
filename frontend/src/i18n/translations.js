@@ -4,6 +4,7 @@ export const translations = {
     home: "Home",
     products: "Products",
     about: "About",
+    admin: "Admin",
     cart: "Cart",
 
     // Hero
@@ -65,6 +66,7 @@ export const translations = {
     home: "Ana Sayfa",
     products: "Urunler",
     about: "Hakkimizda",
+    admin: "Yonetim",
     cart: "Sepet",
 
     // Hero
