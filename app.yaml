@@ -54,6 +54,7 @@ static_sites:
     error_document: index.html
     routes:
       - path: /
+      - path: /admin
     envs:
       - key: VITE_API_URL
         value: "https://${APP_DOMAIN}/api"
