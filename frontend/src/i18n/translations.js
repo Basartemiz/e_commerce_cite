@@ -8,7 +8,7 @@ export const translations = {
     cart: "Cart",
 
     // Hero
-    heroTitle: "Welcome to ShopEase",
+    heroTitle: "Welcome to BB Clinic",
     heroSubtitle: "Discover amazing products at unbeatable prices",
     shopNow: "Shop Now",
 
@@ -70,7 +70,7 @@ export const translations = {
     cart: "Sepet",
 
     // Hero
-    heroTitle: "ShopEase'e Hosgeldiniz",
+    heroTitle: "BB Clinic'e Hosgeldiniz",
     heroSubtitle: "Harika urunleri rakipsiz fiyatlarla kesfedin",
     shopNow: "Alisverise Basla",
 

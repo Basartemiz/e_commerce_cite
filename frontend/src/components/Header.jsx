@@ -9,7 +9,7 @@ function Header({ cartCount, onCartClick }) {
     <header className="header">
       <div className="header-container">
         <a href="#" className="logo">
-          <img src={logo} alt="ShopEase" className="logo-img" />
+          <img src={logo} alt="BB Clinic" className="logo-img" />
         </a>
         <nav className="nav">
           <a href="#" className="nav-link">{t('home')}</a>

@@ -16,7 +16,7 @@ function AdminLayout() {
     <div className="admin-layout">
       <aside className="admin-sidebar">
         <div className="admin-logo">
-          <h2>ShopEase Admin</h2>
+          <h2>BB Clinic Admin</h2>
         </div>
         <nav className="admin-nav">
           <Link

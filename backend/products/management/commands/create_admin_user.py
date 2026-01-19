@@ -13,13 +13,13 @@ class Command(BaseCommand):
         )
         parser.add_argument(
             '--password',
-            default='shopease2024',
-            help='Admin password (default: shopease2024)'
+            default='bbclinic2024',
+            help='Admin password (default: bbclinic2024)'
         )
         parser.add_argument(
             '--email',
-            default='admin@shopease.com',
-            help='Admin email (default: admin@shopease.com)'
+            default='admin@clinicbb.com',
+            help='Admin email (default: admin@clinicbb.com)'
         )
 
     def handle(self, *args, **options):

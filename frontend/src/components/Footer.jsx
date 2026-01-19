@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>ShopEase</h3>
+          <h3>BB Clinic</h3>
           <p>{t('footerTagline')}</p>
         </div>
         <div className="footer-section">
@@ -20,12 +20,12 @@ function Footer() {
         </div>
         <div className="footer-section">
           <h4>{t('contactUs')}</h4>
-          <p>{t('email')}: info@shopease.com</p>
+          <p>{t('email')}: info@clinicbb.com</p>
           <p>{t('phone')}: (555) 123-4567</p>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 ShopEase. {t('allRightsReserved')}</p>
+        <p>&copy; 2024 BB Clinic. {t('allRightsReserved')}</p>
       </div>
     </footer>
   );

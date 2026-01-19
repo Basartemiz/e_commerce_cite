@@ -38,7 +38,7 @@
 }
 
 .nav-link:hover {
-  color: #3498db;
+  color: #27ae60;
 }
 
 .header-actions {
@@ -63,7 +63,7 @@
 }
 
 .cart-button {
-  background-color: #3498db;
+  background-color: #27ae60;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -74,5 +74,5 @@
 }
 
 .cart-button:hover {
-  background-color: #2980b9;
+  background-color: #229954;
 }
