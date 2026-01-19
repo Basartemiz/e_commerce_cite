@@ -15,7 +15,7 @@ services:
     http_port: 8000
     routes:
       - path: /api
-      - path: /admin
+      - path: /django-admin
         preserve_path_prefix: true
     build_command: |
       pip install -r requirements.txt
@@ -50,6 +50,7 @@ static_sites:
     source_dir: frontend
     build_command: npm install && npm run build
     output_dir: dist
+    catchall_document: index.html
     routes:
       - path: /
     envs:
