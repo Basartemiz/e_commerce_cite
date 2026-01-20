@@ -109,3 +109,27 @@
 .login-footer a:hover {
   text-decoration: underline;
 }
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .login-page {
+    padding: 1rem;
+  }
+
+  .login-container {
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+
+  .login-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .login-form input {
+    padding: 0.875rem;
+  }
+
+  .login-button {
+    padding: 1rem;
+  }
+}

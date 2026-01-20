@@ -60,3 +60,28 @@
 .action-button:hover {
   background-color: #229954;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .dashboard h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stat-card {
+    padding: 1.25rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .action-button {
+    padding: 1rem;
+  }
+}

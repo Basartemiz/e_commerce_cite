@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
 import logo from '../assets/logo.svg';
 import './Header.css';
 
 function Header({ cartCount, onCartClick }) {
   const { language, setLanguage, t } = useLanguage();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <header className="header">
@@ -11,11 +13,18 @@ function Header({ cartCount, onCartClick }) {
         <a href="#" className="logo">
           <img src={logo} alt="BB Clinic" className="logo-img" />
         </a>
-        <nav className="nav">
-          <a href="#" className="nav-link">{t('home')}</a>
-          <a href="#" className="nav-link">{t('products')}</a>
-          <a href="#" className="nav-link">{t('about')}</a>
-          <a href="/admin" className="nav-link">{t('admin')}</a>
+        <button
+          className="mobile-menu-button"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          {menuOpen ? '✕' : '☰'}
+        </button>
+        <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
+          <a href="#" className="nav-link" onClick={() => setMenuOpen(false)}>{t('home')}</a>
+          <a href="#" className="nav-link" onClick={() => setMenuOpen(false)}>{t('products')}</a>
+          <a href="#" className="nav-link" onClick={() => setMenuOpen(false)}>{t('about')}</a>
+          <a href="/admin" className="nav-link" onClick={() => setMenuOpen(false)}>{t('admin')}</a>
         </nav>
         <div className="header-actions">
           <select

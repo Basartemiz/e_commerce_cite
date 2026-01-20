@@ -143,3 +143,46 @@
   background-color: #95a5a6;
   cursor: not-allowed;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .product-form-page h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-form {
+    padding: 1rem;
+  }
+
+  .form-section h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    padding: 0.875rem;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+
+  .form-actions {
+    flex-direction: column-reverse;
+    gap: 0.75rem;
+  }
+
+  .cancel-button,
+  .submit-button {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .image-preview img {
+    max-width: 100%;
+  }
+}
